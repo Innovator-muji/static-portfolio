@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/profile.jpg">
+    <link rel="icon" type="image/x-icon" href="assets/profile-pic.jpg.jpeg">
 </head>
 <body>
 
@@ -27,6 +27,8 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#terminal">Terminal</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -41,17 +43,35 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <span class="greeting">$ whoami</span>
+                    <div class="availability-badge">
+                        <span class="pulse-dot"></span> Open to new opportunities
+                    </div>
                     <h1>Parvesh Mushraf P</h1>
                     <h2>AWS DevOps Engineer</h2>
+                    <div class="hero-location">
+                        <i class="fas fa-map-marker-alt"></i> Chennai, India
+                    </div>
                     <p>Building scalable, reliable, and automated cloud infrastructure. Passionate about automating everything and ensuring zero downtime.</p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View Projects</a>
-                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <div class="hero-actions">
+                        <a href="assets/Parvesh_Mushraf_Resume.pdf" download class="btn btn-primary btn-lg">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/parvesh-mushraf-p-b6b35024a/" target="_blank" class="social-icon" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:parveshkutty19@gmail.com" class="social-icon" title="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="javascript:void(0)" id="reveal-phone-btn" class="social-icon" title="Phone">
+                                <i class="fas fa-phone"></i>
+                                <span id="phone-text" class="phone-tooltip">Phone</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="assets/profile.jpg" alt="Parvesh Mushraf P">
+                    <img src="assets/profile-pic.jpg.jpeg" alt="Parvesh Mushraf P">
                 </div>
             </div>
         </div>
@@ -68,20 +88,20 @@
                 </div>
                 <div class="about-stats">
                     <div class="stat-box">
-                        <div class="stat-number">AWS</div>
-                        <div class="stat-label">Cloud Native</div>
+                        <div class="stat-number">2.5+</div>
+                        <div class="stat-label">Years Experience</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">40%</div>
-                        <div class="stat-label">Faster Deployments</div>
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">IaC</div>
-                        <div class="stat-label">Terraform Expert</div>
+                        <div class="stat-number">Cloud</div>
+                        <div class="stat-label">AWS, Azure, On-Prem</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">0</div>
-                        <div class="stat-label">Downtime Goals</div>
+                        <div class="stat-number">70%</div>
+                        <div class="stat-label">Automated</div>
                     </div>
                 </div>
             </div>
@@ -156,7 +176,30 @@
                     <h3><i class="fab fa-aws"></i> Cloud Environments</h3>
                     <div class="skill-list">
                         <span class="skill-item">AWS</span>
+                        <span class="skill-item">Azure</span>
                         <span class="skill-item">On-premises</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fab fa-aws"></i> AWS Services</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">EC2</span>
+                        <span class="skill-item">S3</span>
+                        <span class="skill-item">VPC</span>
+                        <span class="skill-item">SNS</span>
+                        <span class="skill-item">SQS</span>
+                        <span class="skill-item">ECS Fargate</span>
+                        <span class="skill-item">ECR</span>
+                        <span class="skill-item">ElastiCache</span>
+                        <span class="skill-item">RDS</span>
+                        <span class="skill-item">Bedrock</span>
+                        <span class="skill-item">Athena</span>
+                        <span class="skill-item">OpenSearch</span>
+                        <span class="skill-item">Serverless</span>
+                        <span class="skill-item">Lambda</span>
+                        <span class="skill-item">CloudFront</span>
+                        <span class="skill-item">CloudWatch</span>
                     </div>
                 </div>
 
@@ -288,44 +331,74 @@
         </div>
     </section>
 
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title"><span>05.</span> Certifications</h2>
+            <div class="certification-list">
+                
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3>AWS Cloud Practitioner Essentials</h3>
+                        <h4>Amazon Web Services (AWS)</h4>
+                    </div>
+                    <div class="certification-status">Completed</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container">
-            <h2 class="section-title"><span>05.</span> Latest Articles</h2>
+            <h2 class="section-title"><span>06.</span> Technical Blog</h2>
             <div class="blog-grid">
                 
-                <a href="#" target="_blank" class="blog-card">
-                    <div class="blog-image">
-                        <i class="fab fa-aws"></i>
-                    </div>
+                <div class="blog-card" data-blog="k8s">
+                    <div class="blog-image"><i class="fas fa-dharmachakra"></i></div>
                     <div class="blog-content">
-                        <span class="blog-date">Oct 15, 2023</span>
-                        <h3 class="blog-title">Getting Started with AWS EKS and Terraform</h3>
-                        <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+                        <span class="blog-date">April 15, 2024</span>
+                        <h3 class="blog-title">Zero-Downtime Deployments in Kubernetes</h3>
+                        <p class="blog-excerpt">Mastering rolling updates and health probes to ensure 99.99% availability during deployments.</p>
+                        <div class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></div>
                     </div>
-                </a>
+                </div>
 
-                <a href="#" target="_blank" class="blog-card">
-                    <div class="blog-image">
-                        <i class="fab fa-docker"></i>
-                    </div>
+                <div class="blog-card" data-blog="terraform">
+                    <div class="blog-image"><i class="fas fa-code-branch"></i></div>
                     <div class="blog-content">
-                        <span class="blog-date">Sep 02, 2023</span>
-                        <h3 class="blog-title">Best Practices for Docker Image Optimization</h3>
-                        <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+                        <span class="blog-date">April 02, 2024</span>
+                        <h3 class="blog-title">Terraform Best Practices for Scale</h3>
+                        <p class="blog-excerpt">Structuring your IaC with modules and remote state for enterprise-grade infrastructure.</p>
+                        <div class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></div>
                     </div>
-                </a>
+                </div>
 
-                <a href="#" target="_blank" class="blog-card">
-                    <div class="blog-image">
-                        <i class="fas fa-robot"></i>
-                    </div>
+                <div class="blog-card" data-blog="security">
+                    <div class="blog-image"><i class="fas fa-user-shield"></i></div>
                     <div class="blog-content">
-                        <span class="blog-date">Jul 20, 2023</span>
-                        <h3 class="blog-title">Automating Infrastructure Security</h3>
-                        <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+                        <span class="blog-date">March 20, 2024</span>
+                        <h3 class="blog-title">AWS Security: Hardening your VPC</h3>
+                        <p class="blog-excerpt">Implementing IAM least privilege and network isolation to protect your cloud assets.</p>
+                        <div class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></div>
                     </div>
-                </a>
+                </div>
+
+                <div class="blog-card" data-blog="monitoring">
+                    <div class="blog-image"><i class="fas fa-chart-line"></i></div>
+                    <div class="blog-content">
+                        <span class="blog-date">March 05, 2024</span>
+                        <h3 class="blog-title">Full-Stack Observability with Prometheus</h3>
+                        <p class="blog-excerpt">Building a unified monitoring dashboard with Grafana and Prometheus for real-time insights.</p>
+                        <div class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -334,7 +407,7 @@
     <!-- Terminal Section -->
     <section id="terminal" class="terminal-section">
         <div class="container">
-            <h2 class="section-title"><span>06.</span> Interactive Terminal</h2>
+            <h2 class="section-title"><span>07.</span> Interactive Terminal</h2>
             <div class="terminal-container">
                 <div class="terminal-header">
                     <div class="terminal-btn close"></div>
@@ -362,7 +435,7 @@
     <!-- Education Section -->
     <section id="education" class="education">
         <div class="container">
-            <h2 class="section-title"><span>07.</span> Education</h2>
+            <h2 class="section-title"><span>08.</span> Education</h2>
             <div class="education-list">
                 
                 <div class="education-item">
@@ -380,7 +453,7 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title"><span>08.</span> Get In Touch</h2>
+            <h2 class="section-title"><span>09.</span> Get In Touch</h2>
             <div class="contact-container">
                 
                 <div class="contact-info">
@@ -450,8 +523,22 @@
         </div>
     </footer>
 
+    <!-- Blog Reading Modal -->
+    <div id="blogModal" class="blog-modal">
+        <div class="modal-container">
+            <div class="modal-close" id="closeModal">&times;</div>
+            <div class="modal-header">
+                <span class="modal-meta" id="modalDate"></span>
+                <h1 id="modalTitle"></h1>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
-    <script src="js/main.js"></script>
-    <script src="js/terminal.js"></script>
+    <script src="js/main.js?v=2"></script>
+    <script src="js/terminal.js?v=2"></script>
 </body>
 </html>
