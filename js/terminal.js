@@ -13,32 +13,30 @@ document.addEventListener('DOMContentLoaded', () => {
   <span class="success">whoami</span>     - Display current user
 `,
         about: `
-<span class="info">Hi, I'm Parvesh Mushraf.</span>
-I'm a DevOps Engineer with 2.5+ years of experience.
-I specialize in building scalable, reliable, and automated cloud infrastructure.
-My core focus is on AWS, CI/CD, and Infrastructure as Code.
+<span class="info">Hi, I'm Parvesh Mushraf P.</span>
+I'm an AWS DevOps Engineer with extensive experience in cloud infrastructure, CI/CD, and automation.
+Currently working at Kaaylabs Private Limited.
 `,
         skills: `
 <span class="info">Technical Skills:</span>
-  <span class="success">AWS:</span>       EC2, S3, RDS, IAM, VPC, Lambda, CloudFront
-  <span class="success">CI/CD:</span>     Jenkins, GitHub Actions, GitLab CI
-  <span class="success">Containers:</span> Docker, Kubernetes
-  <span class="success">IaC:</span>       Terraform, CloudFormation
-  <span class="success">Monitoring:</span> Prometheus, Grafana, CloudWatch
-  <span class="success">OS:</span>        Linux (Ubuntu, CentOS), Bash Scripting
+  <span class="success">Cloud:</span>         AWS, On-premises
+  <span class="success">Containers:</span>    Docker, Kubernetes, AWS ECS
+  <span class="success">IaC:</span>           Terraform
+  <span class="success">CI/CD:</span>         Jenkins, GitHub Actions
+  <span class="success">Monitoring:</span>    Prometheus, Grafana, CloudWatch, Uptime Kuma
+  <span class="success">OS & Scripting:</span>Linux, Ubuntu, Windows, Shell-scripting
 `,
         projects: `
 <span class="info">Recent Projects:</span>
-  1. <span class="success">CI/CD Pipeline:</span> Blue-Green deployment using Jenkins and ECS.
-  2. <span class="success">Multi-Env Setup:</span> Infrastructure provisioning with Terraform workspaces.
-  3. <span class="success">K8s Monitoring:</span> Setup Prometheus & Grafana stack on EKS.
+  1. <span class="success">Serverless Image Processing:</span> Built with AWS Lambda, CloudFront, and Node.js.
+  2. <span class="success">Blue/Green ECS Deployments:</span> Jenkins CI/CD to ECS Fargate via CodeDeploy.
+  3. <span class="success">Multi-Env Terraform:</span> IaC consistency across dev, QA, UAT, and prod environments.
 <br>Type 'contact' if you want to know more!
 `,
         contact: `
 <span class="info">Contact Information:</span>
-  <span class="success">Email:</span>    your-email@example.com
-  <span class="success">LinkedIn:</span> linkedin.com/in/your-profile
-  <span class="success">GitHub:</span>   github.com/your-username
+  <span class="success">Email:</span>    parveshkutty19@gmail.com
+  <span class="success">Phone:</span>    +91-9952513323
 `,
         whoami: `
 <span class="success">guest</span>
