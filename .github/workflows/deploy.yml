@@ -3,7 +3,7 @@ name: Deploy Static Site to S3 + CloudFront
 on:
   push:
     branches:
-      - main   # change if using master
+      - matser   # change if using master
 
 jobs:
   deploy:
