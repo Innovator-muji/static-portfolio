@@ -35,7 +35,7 @@ Currently working at Kaaylabs Private Limited.
 `,
         contact: `
 <span class="info">Contact Information:</span>
-  <span class="success">Email:</span>    parveshkutty19@gmail.com
+  <span class="success">Email:</span>    parveshdevops19@gmail.com
   <span class="success">Phone:</span>    +91-9952513323
 `,
         whoami: `

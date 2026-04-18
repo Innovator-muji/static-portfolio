@@ -185,6 +185,45 @@ section {
     font-size: 0.85rem;
     font-family: var(--font-mono);
     margin-bottom: 1.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.badge-tooltip {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    background: var(--surface-color);
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.badge-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent var(--accent-color) transparent transparent;
+}
+
+.availability-badge:hover .badge-tooltip {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 25px;
 }
 
 .pulse-dot {
