@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Parvesh Mushraf - DevOps Engineer Portfolio">
+    <title>Parvesh Mushraf | DevOps Engineer</title>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/profile.jpg">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Dev<span>Ops</span>.</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#terminal">Terminal</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="greeting">$ echo "Hello, World!"</span>
+                    <h1>I'm Parvesh Mushraf</h1>
+                    <h2>DevOps Engineer</h2>
+                    <p>Building scalable, reliable, and automated cloud infrastructure. Passionate about automating everything and ensuring zero downtime.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/profile.jpg" alt="Parvesh Mushraf">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"><span>01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a highly motivated DevOps Engineer with over 2.5 years of hands-on experience in designing, implementing, and managing robust cloud infrastructures and continuous integration/continuous deployment (CI/CD) pipelines.</p>
+                    <p>My expertise lies in AWS, Infrastructure as Code (Terraform), containerization (Docker, Kubernetes), and automation. I thrive in environments where I can optimize operational efficiency, enhance security, and deliver seamless deployments.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <div class="stat-number">2.5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">AWS</div>
+                        <div class="stat-label">Cloud Native</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Automated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title"><span>02.</span> Professional Experience</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-title">
+                                <h3>DevOps Engineer</h3>
+                                <h4>Tech Innovators Inc.</h4>
+                            </div>
+                            <span class="timeline-date">Jan 2023 - Present</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Designed and implemented highly available infrastructure on AWS using Terraform.</li>
+                                <li>Built end-to-end CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment time by 40%.</li>
+                                <li>Containerized legacy applications with Docker and deployed them to Amazon EKS.</li>
+                                <li>Set up comprehensive monitoring and alerting using Prometheus, Grafana, and CloudWatch.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-title">
+                                <h3>Junior Cloud Engineer</h3>
+                                <h4>Cloud Solutions Ltd.</h4>
+                            </div>
+                            <span class="timeline-date">Jun 2021 - Dec 2022</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Assisted in migrating on-premise servers to AWS EC2 instances.</li>
+                                <li>Managed IAM roles, policies, and S3 bucket permissions.</li>
+                                <li>Automated routine database backups using shell scripting and cron jobs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"><span>03.</span> Technical Skills</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-category">
+                    <h3><i class="fab fa-aws"></i> AWS Cloud</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">EC2</span>
+                        <span class="skill-item">S3</span>
+                        <span class="skill-item">RDS</span>
+                        <span class="skill-item">VPC</span>
+                        <span class="skill-item">IAM</span>
+                        <span class="skill-item">Lambda</span>
+                        <span class="skill-item">CloudFront</span>
+                        <span class="skill-item">EKS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-infinity"></i> CI/CD & DevOps</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Jenkins</span>
+                        <span class="skill-item">GitHub Actions</span>
+                        <span class="skill-item">GitLab CI</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Kubernetes</span>
+                        <span class="skill-item">ArgoCD</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Infrastructure as Code</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Terraform</span>
+                        <span class="skill-item">Ansible</span>
+                        <span class="skill-item">AWS CloudFormation</span>
+                        <span class="skill-item">Packer</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Monitoring & Logging</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Prometheus</span>
+                        <span class="skill-item">Grafana</span>
+                        <span class="skill-item">ELK Stack</span>
+                        <span class="skill-item">CloudWatch</span>
+                        <span class="skill-item">Datadog</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title"><span>04.</span> Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-rocket project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">CI/CD Pipeline with Blue-Green Deployment</h3>
+                    <p class="project-desc">A fully automated pipeline using Jenkins and Docker to deploy a microservices application with zero downtime using the blue-green deployment strategy on AWS ECS.</p>
+                    <div class="project-tech">
+                        <span>Jenkins</span>
+                        <span>Docker</span>
+                        <span>AWS ECS</span>
+                        <span>Bash</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-server project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Terraform Multi-Environment Setup</h3>
+                    <p class="project-desc">Infrastructure as Code project that provisions a highly available 3-tier architecture across multiple environments (Dev, Staging, Prod) using Terraform workspaces.</p>
+                    <div class="project-tech">
+                        <span>Terraform</span>
+                        <span>AWS VPC</span>
+                        <span>EC2</span>
+                        <span>RDS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-cubes project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Kubernetes Monitoring Stack</h3>
+                    <p class="project-desc">Implemented a comprehensive monitoring solution for a Kubernetes cluster using Helm charts to deploy Prometheus, Grafana, and Alertmanager with custom dashboards.</p>
+                    <div class="project-tech">
+                        <span>Kubernetes</span>
+                        <span>Helm</span>
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title"><span>05.</span> Latest Articles</h2>
+            <div class="blog-grid">
+                
+                <a href="https://your-blog-link.com" target="_blank" class="blog-card">
+                    <div class="blog-image">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Oct 15, 2023</span>
+                        <h3 class="blog-title">Getting Started with AWS EKS and Terraform</h3>
+                        <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </a>
+
+                <a href="https://your-blog-link.com" target="_blank" class="blog-card">
+                    <div class="blog-image">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Sep 02, 2023</span>
+                        <h3 class="blog-title">Best Practices for Docker Image Optimization</h3>
+                        <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </a>
+
+                <a href="https://your-blog-link.com" target="_blank" class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Jul 20, 2023</span>
+                        <h3 class="blog-title">Automating Infrastructure Security with InSpec</h3>
+                        <div class="blog-read-more">Read Article <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Terminal Section -->
+    <section id="terminal" class="terminal-section">
+        <div class="container">
+            <h2 class="section-title"><span>06.</span> Interactive Terminal</h2>
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <div class="terminal-btn close"></div>
+                    <div class="terminal-btn minimize"></div>
+                    <div class="terminal-btn maximize"></div>
+                    <div class="terminal-title">guest@portfolio:~</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="info">Welcome to the interactive portfolio terminal!</span>
+                    </div>
+                    <div class="terminal-line">
+                        Type <span class="success">'help'</span> to see a list of available commands.
+                    </div>
+                    <div id="terminal-output"></div>
+                    <div class="terminal-input-wrapper">
+                        <span class="terminal-prompt">guest@portfolio:~$</span>
+                        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false" autofocus>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title"><span>07.</span> Education</h2>
+            <div class="education-list">
+                
+                <div class="education-item">
+                    <div class="education-info">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <h4>University of Technology</h4>
+                    </div>
+                    <div class="education-year">2017 - 2021</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title"><span>08.</span> Get In Touch</h2>
+            <div class="contact-container">
+                
+                <div class="contact-info">
+                    <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-item-content">
+                                <h4>Email</h4>
+                                <a href="mailto:your-email@example.com">your-email@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-item-content">
+                                <h4>Phone</h4>
+                                <span>+91-XXXXXXXXXX</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="contact-item-content">
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="form-message">
+                        <i class="fas fa-info-circle"></i> This form will open your default email client.
+                    </div>
+                    <form id="static-contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required placeholder="Hello from...">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-socials">
+                <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="footer-text">
+                Designed & Built by <span>Parvesh Mushraf</span> &copy; 2026
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/terminal.js"></script>
+</body>
+</html>
