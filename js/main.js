@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const blogData = {
         k8s: {
             title: "Zero-Downtime Deployments in Kubernetes",
-            date: "April 15, 2024",
+            date: "Jan 20, 2025",
             content: `
                 <p>In the modern DevOps era, users expect services to be available 24/7. Even during updates, we cannot afford downtime. Kubernetes provides built-in mechanisms like <strong>Rolling Updates</strong> to handle this effortlessly.</p>
                 <h2>1. Rolling Updates</h2>
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         terraform: {
             title: "Terraform Best Practices for Scale",
-            date: "April 02, 2024",
+            date: "Jan 12, 2025",
             content: `
                 <p>Infrastructure as Code (IaC) is the foundation of DevOps. As your environment grows, your Terraform code must be structured for maintainability and collaboration.</p>
                 <h2>1. Use Modules</h2>
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         security: {
             title: "AWS Security: Hardening your VPC",
-            date: "March 20, 2024",
+            date: "Dec 28, 2024",
             content: `
                 <p>Security is not an afterthought; it's a core DevOps pillar (DevSecOps). Protecting your cloud infrastructure starts with a "Defense in Depth" strategy.</p>
                 <h2>1. IAM Least Privilege</h2>
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         monitoring: {
             title: "Full-Stack Observability with Prometheus",
-            date: "March 05, 2024",
+            date: "Dec 15, 2024",
             content: `
                 <p>You cannot improve what you cannot measure. Observability goes beyond simple monitoring—it's about understanding the internal state of your system.</p>
                 <h2>1. The Gold Standard: Prometheus</h2>
